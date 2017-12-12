@@ -1,0 +1,13 @@
+body {
+  background-color: salmon;
+}
+
+
+ul li {
+  display: inline;
+}
+
+nav{
+  background-color: #d8d168;
+  width: 20%
+}

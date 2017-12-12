@@ -1,0 +1,8 @@
+<% if @winner == false %>
+  <h1>No winner, play again </h1>
+<% elsif @winner == nil %>
+  <h1>Incorrect entry, please enter rock, paper or scissors</h1>
+<% else %>
+  <h1>The winner is: <%= @winner %> </h1>
+<% end %>
+<p>To see the rules click<a href="/welcome"> here </a>
