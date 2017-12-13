@@ -31,5 +31,8 @@ class RockPaperScissors
     elsif (@ans1 == "scissors" && @ans2 == "paper")
       return @ans1
     end
+
+    # could refactor so that last else will return incorrect entry i.e. remove lines 10-16
+
   end
 end

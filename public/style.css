@@ -7,7 +7,15 @@ ul li {
   display: inline;
 }
 
+#container {
+  width: 100%;
+
+  background-color: #abbddb;
+  /*display: flex;*/
+
+}
+
 nav{
   background-color: #d8d168;
-  width: 20%
+  width: 100%
 }
